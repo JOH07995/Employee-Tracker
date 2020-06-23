@@ -1,0 +1,24 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "CLI tool to CRUD from Employee DB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOH07995/Employee-Tracker.git"
+  },
+  "author": "Tom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JOH07995/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/JOH07995/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.2.0",
+    "mysql": "^2.18.1"
+  }
+}
