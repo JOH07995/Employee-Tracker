@@ -1,5 +1,5 @@
 const mysql = require(`mysql`);
-const { initApp } 
+const { initApp } = require(`./lib/applicationFunctions`);
 const { initPrompts } = require(`./lib/prompts`);
 
 const connection = mysql.createConnection({

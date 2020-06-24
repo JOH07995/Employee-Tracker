@@ -23,8 +23,8 @@ This is done by connecting to a MySQL database. User interaction is driven by in
 
 To install and use locally, 
 1. ```git clone``` this repository to a local directory
-2. Run the ```schema.sql``` (found in db folder) script in MySQLWorkbench, or from the terminal to initialize and begin using the database
-3. Optionally, run the ```seed.sql``` (found in db folder) script to populate the database with some data
+2. Run the ```schema.sql``` (found in db folder) script in MySQL Workbench
+3. Optionally, run the ```seed.sql``` (found in db folder) script to populate the database with data
 4. Install the dependencies via the terminal by running:
 ```bash
 npm i
@@ -39,9 +39,10 @@ node server.js
 
 Program is run by executing "node app.js"
 
-You can then use the arrow keys to navigate the menu and make your selections.The application will receive your input to the prompts to interact with the employee database. As a user, you have full Create, Read, Update, and Delete cuntionality available to you.
+You can then use the arrow keys to navigate the menu and make your selections.The application will receive your input to the prompts to interact with the employee database. As a user, you have full Create, Read, Update, and Delete (CRUD) functionality available to you.
 
-# Technologies
+
+## Technologies
 
 This application was built with:
 
@@ -65,6 +66,6 @@ Documentation on dependencies:
 * [inquirer](https://www.npmjs.com/package/inquirer)
 * [mysql](https://www.npmjs.com/package/mysql)
 
-# Enhancements
-This ended up being a very verbose solution centered around CRUD, I think there are opportunities to simplify the user interaction with the prompts, shortening 'click through'.
+## Enhancements
+This ended up being a verbose solution centered around CRUD, I think there are opportunities to simplify the user interaction with the prompts shortening 'click through'.
 
