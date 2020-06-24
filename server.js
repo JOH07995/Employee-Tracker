@@ -1,5 +1,5 @@
 const mysql = require(`mysql`);
-// const { initApp } 
+const { initApp } 
 const { initPrompts } = require(`./lib/prompts`);
 
 const connection = mysql.createConnection({
@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
 connection.connect(err => {
     if (err) { throw err; }
     initPrompts();
-    // initApp();
+    initApp();
 });
 
 exports.connection = connection;
